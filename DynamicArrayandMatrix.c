@@ -12,7 +12,7 @@ int main() {
 
     for(int i = 0; i<rows_len; i++)
         for(int j = 0; j<cols_len; j++)
-            *(*(array + i) + j) = i*j + i + j;
+           scanf("%d", (*(array + i) + j));
 
     for(int i = 0; i<rows_len; i++){
         for(int j = 0; j<cols_len; j++){
