@@ -22,14 +22,17 @@ int main() {
     
     
     FILE* file;
-    file = fopen("program.bin", "wb");
+    file = fopen("program.bin", "ab");
     fwrite(&stdnt, sizeof(student), 1, file);
     fclose(file);
 
     file = fopen("program.bin", "rb");
     student new_student;
-    fread(&new_student, sizeof(student), 1, file);
-    printf("Hello %s your roll is %d, your marks in subject 3 is %d\n", new_student.name, new_student.roll, new_student.marks[2]);
+    while (fread(&new_student, sizeof(student), 1, file) > 0){
+      printf("Hello %s your roll is %d, your marks in subject 3 is %d\n", new_student.name, new_student.roll, new_student.marks[2]);
+    }
+    
+    
     fclose(file);
 
 
