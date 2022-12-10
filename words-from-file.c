@@ -15,7 +15,7 @@ int main() {
        cce     65    bangalore */
 
     char city[100];
-    while (fscanf(file, "%*s %*s %s", city) == 1)
+    while (fscanf(file, "%*s %*s %s", city) == 1) // sometimes do it > 0, then it will work
         printf("%s\n", city);
 
     // %*s %*s %s -> brings three strings from the file, and each time 
