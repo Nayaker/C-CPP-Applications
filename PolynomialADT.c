@@ -49,6 +49,10 @@ Polynomial addPolynomials(Polynomial* polynomial1, Polynomial* polynomial2, int 
     return sum;
 }
 
+
+// If you want to use this file in as header file then remove this below code and paste it on the other 
+// file along with #include "PolynomialADT.c" in header file. 
+
 int main() {
     int n;
     printf("Enter the highest power of the expression : "); scanf("%d", &n);
