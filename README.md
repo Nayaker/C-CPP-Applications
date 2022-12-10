@@ -7,3 +7,6 @@
 ## 2. Binary files 
       - https://www.programiz.com/c-programming/c-file-input-output
       - https://study.com/academy/lesson/writing-reading-binary-files-in-c-programming.html 
+
+<img width="762" alt="Screenshot 2022-12-10 at 11 04 05 AM" src="https://user-images.githubusercontent.com/93304796/206831121-9cb01031-18ff-4cb1-a541-64f1153f5da4.png">
+
