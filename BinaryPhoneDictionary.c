@@ -3,10 +3,16 @@
 #include <stdio.h>
 #include <string.h>
 
-struct contact_data{
+// struct contact_data{
+//    char name[100];
+//    char number[11];
+// } typedef contact; 
+
+typedef struct contact{
    char name[100];
    char number[11];
-} typedef contact;
+} contact;
+
 
 
 int main() {
